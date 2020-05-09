@@ -1,0 +1,128 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-image: url(./images/fondo.jpg);
+    
+    width: 100%;
+    height: 100vh;
+    background-size: cover; 
+    mask-repeat: no-repeat;
+}
+
+h1#title {
+    font-size: 100px;
+    color:brown;
+    text-align: center;
+    font-family: 'Modak', cursive;
+    margin-top: 20px;
+}
+
+#bandeja2 {
+    padding-left: 20%;
+    color : red
+}
+
+
+
+
+div.table,td {
+    background-color:green;
+    border-color: white;
+    border: 2px solid white;
+}
+
+
+#tablero.casillero tr td button{
+    width: 25px;
+    height: 28px;
+    background-color: white;
+    display: block;
+    color: green;
+    font-weight: bold;
+    
+}
+
+
+button#start-button{
+    background-color: white;
+    color: green;
+    font-weight: bold;
+    margin-left: 705px;
+    border-radius: 35px;
+    padding: 15px 15px;
+    box-shadow: 0 3px #999;
+}
+
+button#ceder-turno{
+    background-color: white;
+    color: green;
+    font-weight: bold;
+    border-radius: 35px;
+    padding: 15px 15px;
+    box-shadow: 0 3px #999;
+}
+
+button#cambiar-letras{
+    background-color: white;
+    color: green;
+    font-weight: bold;
+    border-radius: 35px;
+    padding: 15px 15px;
+    box-shadow: 0 3px #999;
+}
+
+
+button#pedir-fichas{
+    background-color: white;
+    color: green;
+    font-weight: bold;
+    border-radius: 35px;
+    padding: 15px 15px;
+    box-shadow: 0 3px #999;
+}
+
+
+button#submit-word{
+    background-color: white;
+    color: green;
+    font-weight: bold;
+    border-radius: 35px;
+    padding: 15px 15px;
+    box-shadow: 0 3px #999;
+}
+
+ div{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 700px;
+}
+
+table#bandeja td button{
+    color: green;
+    font-weight: bold;
+    background-color: white;
+}
+ 
+table#bandeja {
+    margin-left: 835px;
+}
+
+table#bandeja2 {
+    margin-left: 835px;
+}
+
+table#bandeja2 td button{
+    color: green;
+    font-weight: bold;
+    background-color: white;
+}
+
+h4 {
+color: brown;
+font-size: 55px;
+font-family: 'Modak', cursive;
+font-weight: bold;
+text-align: center;
+
+}
+
